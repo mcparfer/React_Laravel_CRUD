@@ -1,0 +1,82 @@
+.miku,
+.btn-primary,
+.primary-color {
+  background-color: #00cdba !important;
+}
+
+.danger-color {
+  background-color: #f01860 !important;
+}
+
+.warning-color {
+  background-color: #ffc70c !important;
+}
+
+.grey-color {
+  background-color: #dbdbdb !important;
+}
+
+.rounded-circle {
+  width: 20px;
+  height: 20px;
+}
+
+h5,
+h4,
+h3,
+h2,
+h1,
+p,
+a,
+label,
+button,
+td,
+th,
+div {
+  font-family: "Montserrat";
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea[type="text-area"] {
+  font-family: "Montserrat";
+}
+
+td {
+  vertical-align: middle;
+}
+
+.card {
+  height: 100%;
+  border-radius: 15px;
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.transparent-image {
+  background-image: radial-gradient(circle at center, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 100%)
+}
+
+.loading {
+  height: calc(100vh - 100px);
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
